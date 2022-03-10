@@ -5,5 +5,5 @@ deploymentType: KUBERNETES
 infrastructure:
 - type: DIRECT_KUBERNETES
   cloudProviderName: Minikube_Local
-  namespace: prome
+  namespace: prome1
   releaseName: release-${infra.kubernetes.infraId}
